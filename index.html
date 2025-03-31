@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Evans Book Library</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search for books...">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="featured-books">
+            <h2>Popular Books</h2>
+            <div class="books-grid" id="featured-grid"></div>
+        </section>
+
+        <section id="search-results" class="hidden">
+            <h2>Search Results</h2>
+            <div class="books-grid" id="results-grid"></div>
+        </section>
+    </main>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
