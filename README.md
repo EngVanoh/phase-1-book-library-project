@@ -53,7 +53,7 @@ style.css - all the visual styling
 
 script.js - handles the search functionality
 
-README.md - this explanation file
+This is the link to the hosted project: https://phase-1-book-library-project.vercel.app/
 
 
 Created by Evans Kipkorir
